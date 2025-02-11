@@ -19,7 +19,7 @@ const Header = () => {
     );
   });
 
-  const navLinks = ['Home', 'Rooms', 'Restaurant', 'Spa', 'Contact'];
+  const navLinks = ['Home', 'Rooms', 'Restaurant', 'Contact'];
 
   return (
     <header
@@ -32,9 +32,13 @@ const Header = () => {
         {/* Logo */}
         <Link to="/" onClick={resetRoomFilterData}>
           {
-            header
-              ? <LogoDark className='w-[160px]' /> //<img className='w-[160px]' src={LogoDark} />
-              : <LogoWhite className='w-[160px]' /> //<img className='w-[160px]' src={LogoWhite} />
+            //header
+              //? <LogoDark className='w-[160px]' /> //<img className='w-[160px]' src={LogoDark} />
+              //: <LogoWhite className='w-[160px]' /> //<img className='w-[160px]' src={LogoWhite} />
+             <div className='w-[160px]'>
+              <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEF5TAjr__n5HfQYPiqE53lIdJImzQwP75IA&s" 
+              style={{height:50}} />
+              </div>
           }
         </Link>
 
